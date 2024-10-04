@@ -10,7 +10,7 @@ console.log(wordInput);
 
 
 
-function palindroGame (){
+//function palindroGame (){
 
 
 let wordSchizo = wordInput.split('');
@@ -23,14 +23,25 @@ let wordJoin = wordSchizo.join('');
 console.log(wordJoin);
 
 
+if(wordInput === wordJoin){
+    console.log('la parola è palindroma');
+  } else {
+    console.log('la parola non è palindroma');
+  }
 
-}
-
-palindroGame()
 
 
 
+//palindroGame()
 
+
+
+
+/*if(wordInput === wordReverse){
+    console.log('la parola è palindroma');
+  } else {
+    console.log('la parola non è palindroma');
+  }
 
 
 // Creare una funzione --> OBIETTIVO: per capire se la parola inserita è palindroma;
@@ -38,3 +49,6 @@ palindroGame()
 
 //è necessario estrarre l'indice della parola
 
+
+//let wordJoin = wordSchizo.join('');
+//console.log(wordJoin);*/
