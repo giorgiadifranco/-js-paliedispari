@@ -10,7 +10,7 @@ console.log(wordInput);
 
 
 
-function palindoGame (){
+function palindroGame (){
 
 
 let wordSchizo = wordInput.split('');
@@ -24,7 +24,7 @@ let wordJoin = wordSchizo.join('');
 return wordJoin
 }
 
-palindoGame()
+palindroGame()
 
 
 
