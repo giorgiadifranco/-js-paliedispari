@@ -3,11 +3,11 @@ console.log("it Works");
 //Chiedere all’utente di inserire una parola
 
 
-// Creare una funzione --> OBIETTIVO: per capire se la parola inserita è palindroma;
+// Creare una funzione --> OBIETTIVO: per capire(verify) se la parola inserita è palindroma;
 //- reverse
 
 
-
+//funzione senza parametro
 function palindroGame (){
 
 let wordInput = prompt("Ciao! inserisci una parola:");
