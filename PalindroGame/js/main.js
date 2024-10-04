@@ -20,11 +20,15 @@ let wordReverse = wordSchizo.reverse();
 console.log(wordReverse);
 
 let wordJoin = wordSchizo.join('');
+console.log(wordJoin);
 
-return wordJoin
+
+
 }
 
 palindroGame()
+
+
 
 
 
